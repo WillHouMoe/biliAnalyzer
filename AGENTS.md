@@ -20,8 +20,8 @@ SESSDATA is a hard requirement (anonymous calls get HTTP 412).
 
 - Backend: `ruff check .` then `pytest -q` (in `backend/`, dev extras: `pip install -e ".[dev]"`).
   Ruff selects `E4/E7/E9/F/I/UP` — it catches dead imports and undefined names, not style.
-- Frontend: `npx tsc --noEmit`, `npx eslint .`, `npm run build`. The frontend has no
-  test suite; when you fix a frontend bug, that is the moment to start one for that module.
+- Frontend: `npx tsc --noEmit`, `npx eslint .`, `npm test`, `npm run build`.
+  Add focused Vitest coverage when fixing frontend behaviour.
 - The sentiment pipeline is a single implementation — `SnowNLPAnalyzer` in
   `app/services/sentiment/snownlp_analyzer.py`. There is deliberately no analyzer
   registry: one existed and nothing could ever select a different implementation.

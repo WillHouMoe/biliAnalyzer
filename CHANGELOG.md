@@ -17,6 +17,16 @@ revival that rewrote most of the surface. For anything before that, read
 
 ---
 
+## 2026-10-25
+
+### Fixed
+
+- **The video radar tooltip now reports real metric values.** Radar
+  coordinates are normalised to 0–100 so metrics with different units share
+  one shape, but the tooltip exposed those internal coordinates as long
+  floating-point numbers. Hovering a series now shows its exact playback,
+  interaction and comment counts instead.
+
 ## 2026-09-21
 
 ### Changed

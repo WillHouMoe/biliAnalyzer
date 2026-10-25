@@ -84,7 +84,7 @@ uvicorn app.main:app --port 8000 --reload
 cd frontend && npm install && npm run dev      # http://localhost:5173
 ```
 
-在 `backend/` 底下跑 `pytest`，在 `frontend/` 底下跑 `npm run build` 和 `npx eslint .`。需要 Python 3.11+ 與 Node 20+。
+在 `backend/` 底下跑 `pytest`，在 `frontend/` 底下跑 `npm test`、`npm run build` 和 `npx eslint .`。需要 Python 3.11+ 與 Node 20+。
 
 ## 授權
 

@@ -119,7 +119,7 @@ uvicorn app.main:app --port 8000 --reload
 cd frontend && npm install && npm run dev      # http://localhost:5173
 ```
 
-`pytest` from `backend/`, `npm run build` and `npx eslint .` from `frontend/`.
+`pytest` from `backend/`; `npm test`, `npm run build` and `npx eslint .` from `frontend/`.
 Requires Python 3.11+ and Node 20+.
 
 ## License
