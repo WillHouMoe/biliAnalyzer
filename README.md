@@ -11,6 +11,11 @@ numbers.
 
 **English** · [繁體中文](README.zh-Hant.md)
 
+> [!IMPORTANT]
+> **This repository is no longer maintained.** Development has moved to
+> **[bili-data-analyzer](https://github.com/WillHouMoe/bili-data-analyzer)**.
+> Please use the new repository for future updates.
+
 Bilibili's creator centre shows totals and trend lines for your own account
 only. BiliDataAnalyzer answers broader questions across a creator's recent
 catalogue: which uploads performed best, how publishing cadence and duration
